@@ -123,6 +123,18 @@
     {
       "name": "AdGuard DNS Filter",
       "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
+    },
+    {
+      "name": "GoodbyeAds",
+      "url": "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Formats/GoodbyeAds-AdBlock-Filter.txt"
+    },
+    {
+      "name": "OISD Blocklist Small",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt"
+    },
+    {
+      "name": "OISD Blocklist Big",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt"
     }
   ]
 }
