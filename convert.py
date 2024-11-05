@@ -30,6 +30,6 @@ if __name__ == '__main__':
     for config in configs:
         name = config.get('name')
         url = config.get('url')
-        file_name = url.split('/')[-1]
+        file_name = name.replace(' ', '_') + '.txt'
         print(f'Name: {name}, file_name: {file_name}, url: {url}')
         download_txt_file(url, file_name)
